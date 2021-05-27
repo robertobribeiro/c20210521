@@ -90,6 +90,44 @@ nav a:hover {
 	margin: 0 auto;
 }
 
+.our-features {
+	padding: 3em 0;
+	background: #888888;
+}
+
+.our-features-content {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.features-list {
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.feature {
+	line-height: 1.5;
+}
+
+.feature:first-child {
+	font-weight: bold;
+}
+
+.feature:before {
+	content: "🟊";
+}
+
+.our-features-img {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.our-features-img:hover {
+	opacity: 0.8;
+}
 
 /* products */
 
